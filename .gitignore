@@ -21,5 +21,8 @@ build
 eclipse
 run
 
+# custom
+src/generated
+
 # Files from Forge MDK
 forge*changelog.txt
