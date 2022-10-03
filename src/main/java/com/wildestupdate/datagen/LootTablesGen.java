@@ -21,6 +21,11 @@ public class LootTablesGen extends BaseLootTableProvider {
                 .setRolls(ConstantValue.exactly(1))
                 .add(LootItem.lootTableItem(BlockAdditions.MUD_BLOCK.get()));
         lootTables.put(BlockAdditions.MUD_BLOCK.get(), LootTable.lootTable().withPool(builder));
+
+        LootPool.Builder builder2 = LootPool.lootPool()
+                .name("packed mud")
+                .setRolls(ConstantValue.exactly(1))
+                .add(LootItem.lootTableItem(BlockAdditions.PACKED_MUD_BLOCK.get()));
     }
 
 }

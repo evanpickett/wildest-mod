@@ -15,5 +15,6 @@ public class BlockStatesGen extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         simpleBlock(BlockAdditions.MUD_BLOCK.get());
+        simpleBlock(BlockAdditions.PACKED_MUD_BLOCK.get());
     }
 }

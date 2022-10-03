@@ -19,5 +19,8 @@ public class BlockTagsGen extends BlockTagsProvider {
     protected void addTags(){
         tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(BlockAdditions.MUD_BLOCK.get());
+
+        tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(BlockAdditions.PACKED_MUD_BLOCK.get());
     }
 }

@@ -17,6 +17,7 @@ public class ItemAdditions {
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 
     public static final RegistryObject<Item> MUD_ITEM = ITEMS.register("mud", ()->new BlockItem(BlockAdditions.MUD_BLOCK.get(), new Item.Properties().tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> PACKED_MUD_ITEM = ITEMS.register("packed_mud", ()->new BlockItem(BlockAdditions.PACKED_MUD_BLOCK.get(), new Item.Properties().tab(CreativeModeTab.TAB_DECORATIONS)));
 
     public static void register(){
         LOGGER.info("Loading items...");

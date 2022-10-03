@@ -18,6 +18,7 @@ public class ItemsGen extends ItemModelProvider {
         //singleTexture(ItemAdditions.MUD_ITEM.get().getRegistryName().getPath(), new ResourceLocation("item/handheld"),
         //        "layer0", new ResourceLocation(WildestUpdate.MODID, "item/magicblock_item"));
         withExistingParent(ItemAdditions.MUD_ITEM.get().getRegistryName().getPath(), new ResourceLocation(WildestUpdate.MODID, "block/mud"));
+        withExistingParent(ItemAdditions.PACKED_MUD_ITEM.get().getRegistryName().getPath(), new ResourceLocation(WildestUpdate.MODID, "block/mud"));
     }
 
 }

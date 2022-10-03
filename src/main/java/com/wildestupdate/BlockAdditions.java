@@ -1,6 +1,7 @@
 package com.wildestupdate;
 
 import com.wildestupdate.blocks.Mud;
+import com.wildestupdate.blocks.Packed_Mud;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,7 @@ public class BlockAdditions {
 
 
     public static final RegistryObject<Block> MUD_BLOCK = BLOCKS.register("mud", Mud::new);
+    public static final RegistryObject<Block> PACKED_MUD_BLOCK = BLOCKS.register("packed_mud", Packed_Mud::new);
 
 
 

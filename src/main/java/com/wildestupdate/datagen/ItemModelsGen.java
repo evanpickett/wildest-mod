@@ -15,5 +15,6 @@ public class ItemModelsGen extends ItemModelProvider {
     @Override
     protected void registerModels() {
         withExistingParent(ItemAdditions.MUD_ITEM.get().getRegistryName().getPath(), modLoc("block/mud"));
+        withExistingParent(ItemAdditions.PACKED_MUD_ITEM.get().getRegistryName().getPath(), modLoc("block/mud"));
     }
 }

@@ -15,5 +15,6 @@ public class LanguageProviderGen extends LanguageProvider {
     protected void addTranslations() {
         //add("itemGroup." + TAB_NAME, "My Tab");
         add(BlockAdditions.MUD_BLOCK.get(), "Mud");
+        add(BlockAdditions.PACKED_MUD_BLOCK.get(), "Packed Mud");
     }
 }
